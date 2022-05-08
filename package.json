@@ -1,0 +1,22 @@
+{
+  "name": "rsschool-stage1-virtualkeyboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tatty13/rsschool-stage1-VirtualKeyboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tatty13/rsschool-stage1-VirtualKeyboard/issues"
+  },
+  "homepage": "https://github.com/Tatty13/rsschool-stage1-VirtualKeyboard#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  }
+}
