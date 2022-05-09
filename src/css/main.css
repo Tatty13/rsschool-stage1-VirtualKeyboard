@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    width: max-content;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: rgb(220, 222, 222);
+}
+
+.wrapper {
+    width: 100%;
+    height: fit-content;
+    padding: 15px;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.line {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;  
+    justify-content: center;
+    gap: 5px;
+}
+
+.key {
+    width: 50px;
+    height: 50px;
+
+    padding: 12px 10px;
+
+    background-color: rgb(49, 49, 49);
+    border: 0px;
+    border-radius: 5px;
+    color: rgb(220, 222, 222);
+    font-size: 1.3rem;
+    text-align: center;
+    
+    cursor: pointer;
+}
+
+.line0 .key:last-child, .line1 .key:nth-child(1), .line2 .key:nth-child(1), .line2 .key:last-child, .line3 .key:nth-child(1), .line4 .key:nth-child(4) {
+    flex-grow: 1;
+}
+
+.line3 .key:last-child {
+    padding: 12px 2px;
+}
+
+
+.key:hover {
+    background-color: rgb(42, 75, 83);
+}
+
+.key.active {
+    background-color: rgb(42, 75, 83); 
+}
