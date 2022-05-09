@@ -1,1 +1,0 @@
-# rsschool-stage1-VirtualKeyboard
