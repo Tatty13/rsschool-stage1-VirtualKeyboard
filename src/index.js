@@ -24,7 +24,6 @@ keyBoardWrapper.className = 'wrapper';
             divLine.appendChild(item);
             item.className = 'key';
             item.classList.add('key' + i);
-        //    item.innerHTML = `${String.fromCharCode(keyBoardSymbols[j][i])}`;
             item.innerHTML = `${String(keyBoardSymbols[j][i])}`;
         }
     }
@@ -38,12 +37,3 @@ const activeKey = (el) => {
     el.target.classList.add('active');
 }
 key.forEach(el => el.addEventListener('click', activeKey));
-
-
-//console.log(keyBoardSymbols[0][0]);
-// let keyBoardSymbols = 'f';
-// let list = '';
-// for(let i = 0; i < keyBoardSymbols.length; i++){
-//     list = `${list}, ${keyBoardSymbols[i].charCodeAt()}`
-// }
-// console.log(list);
